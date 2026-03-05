@@ -12,3 +12,5 @@ App will use frontend, backend, and API
 together.
 
 Common real-world example.
+
+This is just the start of the project, I will add more as time progresses.
