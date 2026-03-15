@@ -13,4 +13,9 @@ together.
 
 Common real-world example.
 
-This is just the start of the project, I will add more as time progresses.
+To run this ToDo app:
+
+1. Go to the root directory of this project
+2. Run npm install concurrently --save-dev
+   npm run dev
+3. Go to http://localhost:5199/
