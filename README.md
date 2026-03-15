@@ -16,6 +16,5 @@ Common real-world example.
 To run this ToDo app:
 
 1. Go to the root directory of this project
-2. Run npm install concurrently --save-dev
-   npm run dev
+2. Run npm install concurrently --save-dev && (cd client && npm install) && (cd server && npm install) && npm run dev
 3. Go to http://localhost:5199/

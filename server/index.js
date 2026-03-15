@@ -12,6 +12,11 @@ let todos = [
 ];
 let nextId = 3;
 
+// GET all
+app.get("/api/todos", (req, res) => {
+  res.json(todos);
+});
+
 // POST create
 app.post("/api/todos", (req, res) => {
   const text = (req.body?.text ?? "").trim();
@@ -20,11 +25,6 @@ app.post("/api/todos", (req, res) => {
   const todo = { id: nextId++, text, done: false };
   todos.unshift(todo);
   res.status(201).json(todo);
-});
-
-// GET all
-app.get("/api/todos", (req, res) => {
-  res.json(todos);
 });
 
 // PATCH toggle/update

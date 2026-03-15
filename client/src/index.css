@@ -1,6 +1,3 @@
-:root {
-  color-scheme: light;
-}
-body {
-  margin: 0;
-}
+/* keep it simple */
+:root { color-scheme: light; }
+body { margin: 0; }
